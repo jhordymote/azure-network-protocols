@@ -48,7 +48,7 @@ After downloaded wireshark, we can read the Ethernet traffic as we can see in th
 <img src="https://i.imgur.com/w7roGlU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this post we can see, we filter our connection wireshark on ICMP (internet control messaging protocol) this is the information pinged and show the connection traffic between both machine. and the icmp result shows with the IP are the same on the windows powershell. actually it gives message on all the traffic address we are searching or pinging on the windows powershell copmmand (just to know if you want to ping IP's with not stop chechking just add -t at the end)
 </p>
 <br />
 
@@ -56,7 +56,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/FFnzi2j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this post we filter our connection wireshark on SSH (Secure Shell) to connect to another computer on the powershell we tap the command follow the username and IPaddress process with yes and password than you are connect that computer and you can read as well on the wireshark that the ssh traffic will start coming through.
 </p>
 <br />
 
