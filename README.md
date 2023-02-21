@@ -88,7 +88,7 @@ In this post we can see, we filter our connection wireshark on DHCP(Dynamic Host
 <img src="https://i.imgur.com/IDFiMPj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In this post we can see, we filter our connection wireshark on DHCP
+In this post we can see, we filter our connection wireshark on DNS(Domain Name System), in the command DNS helps us to have IPaddress of hostname by typing or requesting witn NSLOOK UP command on windows powershell, and all the result will appear on powershell and also traffic on wireshark.
 </p>
 <br />
 
@@ -96,6 +96,6 @@ In this post we can see, we filter our connection wireshark on DHCP
 <img src="https://i.imgur.com/XaSZZcM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In this post we can see, we filter our connection wireshark on DHCP
+In this post we can see, we filter our connection wireshark on udp.port==53, which will relate the same result because DNS use port 53, just as SSH use port 22 and by typing tcp.port==3389 this will go not stop on the traffic wireshark.
 </p>
 <br />
